@@ -1,0 +1,88 @@
+/*
+nav bar styles 
+----------------------------------
+*/
+header nav {
+    background-color: #781327;
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.nav-page {
+    color: aliceblue;
+    text-decoration: none;
+}
+/*
+----------------------------------
+*/
+
+
+/*
+title style 
+----------------------------------
+*/
+h1 {
+    text-align: center;
+}
+/*
+----------------------------------
+*/
+
+.introduction {
+    background-color: #006094;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.president-welcome {
+    background-color: #3B0104;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 10px;
+}
+.exec-team {
+    background-color: #004165;
+    padding: 10px;
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+/*
+*/
+.complaints {
+    background-color: #3B0104;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.contact-us {
+    background-color: #781327;
+    color: aliceblue;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+form div {
+    margin-bottom: 10px;
+ }
+
+footer {
+    background-color: #006094;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+}

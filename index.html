@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UofT Toastmasters | Home</title>
+    <link rel="stylesheet" href="/home.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li>
-                    <a href="/index.html">Home</a>
-                </li>
-                <li>
-                    <a href="/membership.html">Membership</a>
-                </li>
-                <li>
-                    <a href="/events.html">Events</a>
-                </li>
+            <ul class="nav-bar">
+                    <li>
+                        <a href="/index.html" class="nav-page">Home</a>
+                    </li>
+                    <li>
+                        <a href="/membership.html" class="nav-page">Membership</a>
+                    </li>
+                    <li>
+                        <a href="/events.html" class="nav-page">Events</a>
+                    </li>
             </ul>
         </nav>
         <h1>
@@ -26,9 +27,6 @@
     </header>
     <main>
         <div class="introduction">
-            <h2>
-                Introduction
-            </h2>
             <p>
                 At UofT Toastmasters, we create a supportive environment
                 where everyone can improve their public speaking and leadership skills.
@@ -267,14 +265,18 @@
                 Contact
             </h2>
             <form action="" class="contact-form">
-                <input type="text" id="name">
-                <label for="name">Name</label>
-                <input type="text" id="email">
-                <label for="email">Email</label>
-                <input type="text" id="subject">
-                <label for="subject">Subject</label>
-                <input type="text" id="message">
-                <label for="message">Message</label>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                    <label for="email">Email</label>
+                    <input type="text" id="email">
+                </div>
+                <div>
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject">
+                    <label for="message">Message</label>
+                    <input type="text" id="message">
+                </div>
                 <button>Send</button>
             </form>
         </div>
